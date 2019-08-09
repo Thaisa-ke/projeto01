@@ -1,0 +1,59 @@
+#header{
+    background-color: black;
+    color: white;
+    font-family: Corbel;
+}
+
+#cabecalho{
+   background-image: url("tela.jpg");
+    font-family: "Arial Black";
+    border-bottom: 2px groove #333333;
+    padding: 50px 50px;
+}
+
+#texto{
+    font-family: Arial;
+    padding: 50px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto1{
+    font-family: Arial;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#subtitulo{
+    font-family:Corbel;
+    text-align: left;
+}
+
+#hall{
+    font-family:Corbel;
+    text-align: left;
+}
+
+#reviews{
+    padding: 15px 5px;
+    text-align: left;
+}
+
+#planos{
+    padding: 25px;
+    text-align: left;
+}
+
+#Footer{
+    color: white;
+    background-color: black;
+    font-family:Corbel;
+}
+
+#botao{
+    font-family:Corbel;
+    text-align: center;
+    border-bottom-color: white;
+}
+

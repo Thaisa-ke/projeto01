@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br" xmlns="http://www.w3.org/1999/html">
     <head>
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -11,24 +12,18 @@
     </head>
 
  <!--HEADER-->
-        <section style="background-color: black">
+        <section id="header" >
                 <div class="pb-3 pt-3">
                         <div class="container">
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#"><h5>Logo</h5></a>
+                                    <a class="nav-link" href="#texto"><h5>Descubra</h5></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><h5>Descubra</h5></a>
+                                    <a class="nav-link" href="#planos"><h5>Preços</h5></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><h5>Preços</h5></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><h5>Cadastre-se</h5></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><h5>Login</h5></a>
+                                    <a class="nav-link" href="formulario.html"><h5>Login</h5></a>
                                 </li>
                             </ul>
                         </div>
@@ -38,11 +33,11 @@
         </section>
 
     <!--CABEÇALHO-->
-    <section style="background-color: aquamarine;" class="py-5">
+    <section id="cabecalho">
     <div>
         <div class="container">
-             <h1>Melhores Momentos</h1>
-            <p>Melhores Momentos</p>
+            <h1>Melhores Momentos</h1>
+            <p>Venha Conferir</p>
 
             <div class="row">
                 <div class="col-8"><input type="search" class="w-100"></div>
@@ -54,43 +49,43 @@
     <!--CORPO-->
         <section>
             <div class="container">
-              <div class="pt-5 pb-3" align="center" >
-                  <h4>Imagens Bonitas Lindas e Perfeitas</h4>
-                  <p>Imagens Bonitas Lindas e Perfeitas</p>
+              <div id="texto" >
+                  <h4><strong>Imagens Bonitas Lindas e Perfeitas</strong></h4>
+                  <h5>Confira</h5>
               </div>
             </div>
         </section>
 
     <!--IMAGENS-->
-    <section>
+    <section >
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="cabeçalho.jpg" style="width:350px;height:200px;">
-                    <p> lorem ipsum</p>
+            <div class="row" >
+                <div class="col" >
+                    <img src="cabeçalho.jpg"style="width:350px;height:200px;" >
+                    <p id="subtitulo"> lorem ipsum</p>
                  </div>
-                <div class="col">
-                     <img src="paisag01.jpg" style="width:350px;height:200px;">
-                    <p> lorem ipsum</p>
+                <div class="col" >
+                     <img src="paisag01.jpg"style="width:350px;height:200px;" >
+                    <p id="subtitulo"> lorem ipsum</p>
                  </div>
-                 <div class="col">
-                     <img src="paisag2.jpg" style="width:350px;height:200px;">
-                     <p> lorem ipsum</p>
+                 <div class="col"  >
+                     <img src="paisag2.jpg"style="width:350px;height:200px;" >
+                     <p id="subtitulo"> lorem ipsum</p>
                  </div>
              </div>
 
-            <div class="row">
+            <div class="row" >
                  <div class="col">
-                     <img src="paisag3.jpg" style="width:350px;height:200px;">
-                    <p> lorem ipsum</p>
+                     <img src="paisag3.jpg"style="width:350px;height:200px;" >
+                    <p id="subtitulo"> lorem ipsum</p>
                  </div>
-                <div class="col">
+                <div class="col" >
                      <img src="paisag4.jpg" style="width:350px;height:200px;">
-                    <p> lorem ipsum</p>
+                    <p id="subtitulo"> lorem ipsum</p>
                  </div>
-                <div class="col">
+                <div class="col" >
                      <img src="paisag5.jpg" style="width:350px;height:200px;">
-                    <p> lorem ipsum</p>
+                    <p id="subtitulo"> lorem ipsum</p>
                  </div>
              </div>
         </div>
@@ -103,11 +98,11 @@
                 <div class="container">
                 <div class="row">
 
-                        <div class="col-4" align="left" >
+                        <div class="col-4" id="hall" >
                             <div class="ml-4 pt-5">
-                            <h4 class="display-4">Hall da Fama</h4>
+                                <h4 class="display-4"><strong>Hall da Fama</strong></h4>
                              <p class="lead">lorem ipsum</p>
-                            <button type="button" class="btn btn-secondary btn-sm">VOTE</button>
+                                <button type="button" class="btn btn-dark">VOTE</button>
                             </div>
                         </div>
 
@@ -124,12 +119,12 @@
     <!--REVIEWS-->
     <section>
          <div class="container">
-             <div class="pb-2"> <h3>Reviews</h3></div>
+             <div  id="reviews"> <h3 >Reviews</h3></div>
                  <div class="row">
                      <div class="card mb-3" style="max-width: 540px;">
                          <div class="row no-gutters">
                              <div class="col-md-3">
-                                 <img src="icone.png" class="card-img">
+                                 <img src="ico-novo.png" class="card-img">
                              </div>
                              <div class="col-md-8">
                                  <div class="card-body">
@@ -143,7 +138,7 @@
                      <div class="card mb-3" style="max-width: 540px;">
                          <div class="row no-gutters">
                              <div class="col-md-3">
-                                 <img src="icone.png" class="card-img">
+                                 <img src="ico-novo.png" class="card-img">
                              </div>
                              <div class="col-md-8">
                                  <div class="card-body">
@@ -159,7 +154,7 @@
                      <div class="card mb-3" style="max-width: 540px;">
                          <div class="row no-gutters">
                              <div class="col-md-3">
-                                 <img src="icone.png" class="card-img">
+                                 <img src="ico-novo.png" class="card-img">
                              </div>
                              <div class="col-md-8">
                                  <div class="card-body">
@@ -173,7 +168,7 @@
                      <div class="card mb-3" style="max-width: 540px;">
                          <div class="row no-gutters">
                              <div class="col-md-3">
-                                 <img src="icone.png" class="card-img">
+                                 <img src="ico-novo.png" class="card-img">
                              </div>
                              <div class="col-md-8">
                                  <div class="card-body">
@@ -189,12 +184,12 @@
 
     <!--PLANOS PARA TODOS OS BOLSOS-->
     </section>
-    <div class="container">
-            <div class="pb-2 pt-4"><h3>Planos para todos os bolsos:</h3></div>
+    <div class="container" >
+            <div id="planos"><h3>Planos para todos os bolsos:</h3></div>
 
-            <div class="row">
+            <div class="row" id="texto1">
                  <div class="col">
-                     <div class="card" style="width: 18rem;" align="center">
+                     <div class="card" style="width: 18rem;" >
                          <div class="card-body">
                              <h5 class="card-title">SILVER</h5>
                              <h6 class="card-subtitle mb-2 text-muted">R$ 9,99</h6>
@@ -205,13 +200,15 @@
                                      <li class="list-group-item">oi</li>
                                  </ul>
                              </div>
-                             <div class="pt-3"><a href="#" class="btn btn-primary" ali>OK</a></div>
+                             <div class="pt-3" id="botao">
+                                 <button type="button" class="btn btn-dark">OK</button>
+                             </div>
                             </div>
                          </div>
                  </div>
 
                 <div class="col">
-                    <div class="card" style="width: 18rem;" align="center">
+                    <div class="card" style="width: 18rem;" >
                         <div class="card-body">
                             <h5 class="card-title">CRYSTAL</h5>
                             <h6 class="card-subtitle mb-2 text-muted">R$ 9,99</h6>
@@ -222,14 +219,16 @@
                                     <li class="list-group-item">oi</li>
                                 </ul>
                             </div>
-                            <div class="pt-3"><a href="#" class="btn btn-primary" ali>OK</a> </div>
+                            <div class="pt-3" id="botao">
+                                <button type="button" class="btn btn-dark">OK</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
                 <div class="col">
-                    <div class="card" style="width: 18rem;" align="center">
+                    <div class="card" style="width: 18rem;" >
                         <div class="card-body">
                             <h5 class="card-title">GOLD</h5>
                             <h6 class="card-subtitle mb-2 text-muted">R$ 9,99</h6>
@@ -240,8 +239,8 @@
                                     <li class="list-group-item">oi</li>
                                 </ul>
                             </div>
-                            <div class="pt-3">
-                            <a href="#" class="btn btn-primary" ali>OK</a>
+                            <div class="pt-3" id="botao">
+                                <button type="button" class="btn btn-dark">OK</button>
                             </div>
                         </div>
                     </div>
@@ -253,11 +252,11 @@
     <!--FOOTER-->
     <section>
         <div class="pt-5">
-        <footer class="test-muted">
+        <footer class="test-muted" id="Footer">
             <div class="border-top">
             <div class="container">
                     <div class="row">
-                         <div class="col-9 pt-3"><p>Copyright 2019</p> </div>
+                         <div class="col-9 pt-3"><p>Copyright 2019</p></div>
                          <div class="col-3" align="right">
                              <div class="pt-3">
                              <img src="ico_wha.png" style="width:30px;height:30px;" >
